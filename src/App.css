@@ -123,3 +123,11 @@ p {
   display: flex;
   justify-content: center;
 }
+.tell {
+  color: #f02849;
+  font-size: 0.8rem;
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}

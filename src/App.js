@@ -50,7 +50,13 @@ function App() {
                     onChange={(e) => setPhone(e.target.value)}
                 />
             </div>
-
+            <div>
+      {result === "successfully!!!" ? (
+        <p class = "tell">Email hoặc số di động bạn nhập không kết nối với tài khoản nào. <h3>Hãy tìm tài khoản của bạn và đăng nhập.</h3></p>
+      ) : (
+        <p></p>
+      )}
+    </div>    
             <div class="form-check">
                     <input
                          type="password" 
@@ -81,9 +87,7 @@ function App() {
         <div class="centre">
             <p class="end">nghiệp.</p>
         </div>
-    </div>
-
-            
+    </div>  
    </div>
   );
 }
