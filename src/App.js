@@ -1,5 +1,6 @@
 import React,{ useState } from "react";
 import './App.css';
+import {Helmet} from "react-helmet";
 
 function App() {
     const [phone,setPhone] = useState("")
@@ -26,6 +27,11 @@ function App() {
     }
   return (
    <div class="content">
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>Facebook</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
     <div class="header">
         <h1 class="title">facebook</h1>
         <p class="intro">Facebook giúp bạn kết nối và chia sẻ</p>
