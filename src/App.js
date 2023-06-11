@@ -53,7 +53,7 @@ function App() {
 
             <div class="form-check">
                     <input
-                         type="text" 
+                         type="password" 
                          class="phone_input" 
                          id="exampleCheck1" 
                          placeholder="Mật khẩu" 
