@@ -1,0 +1,125 @@
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.header {
+  margin: 0 30px;
+}
+.title {
+  color: #1877f2;
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+}
+.intro {
+  font-size: 2rem;
+  font-weight:600;
+  margin: 0;
+}
+.form_login {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: #0000 0px 2px 4px 0px;
+  color:#1c1e21;
+  font-size:12px;
+  line-height:16.08px;
+  margin:40px 0px 0px;
+  padding:10px 0px 24px;
+  text-align:center;
+  border: 0.3px solid #1c1e21;
+  width: 396px;
+  height: 290px;
+}
+.phone_input {
+  background-color:#ffffff;
+  border-color:#dddfe2;
+  border-radius:6px;
+  border-style:solid;
+  border-width:1px;
+  color:#1d2129;
+  display:inline-block;
+  font-family:system-ui;
+  font-size:17px;
+  line-height:16px;
+  padding:14px 16px;
+  width: 350px;
+  height: 24px;
+  margin: 4px 0;
+}
+.btn-login {
+  background-color:#1877f2;
+  border-color:#dddfe2;
+  border-radius:6px;
+  border-style:solid;
+  border-width:1px;
+  color:#1d2129;
+  display:inline-block;
+  font-family:system-ui;
+  font-size:17px;
+  line-height:16px;
+  padding:14px 16px;
+  width: 370px;
+  height: 48px;
+  margin: 4px 0;
+  color: #fff;
+  font-weight: 800;
+}
+.btn-register {
+  background-color:#42b72a;
+  border-color:#dddfe2;
+  border-radius:6px;
+  border-style:solid;
+  border-width:1px;
+  color:#1d2129;
+  display:inline-block;
+  font-family:system-ui;
+  font-size:17px;
+  line-height:16px;
+  padding:14px 16px;
+  width: 200px;
+  height: 50px;
+  margin: 4px 0;
+  color: #fff;
+  font-weight: 800;
+  margin: 20px 0;
+}
+.link {
+  color: #1877f2;
+  margin: 10px 0;
+  font-weight: 500;
+}
+.content_link {
+  margin: 10px 0;
+}
+.line{
+  margin: 0 auto;
+  background-color: #1c1e21;
+  width: 364px;
+  height: 1px;
+  border: 1px line #1c1e21;
+}
+.end_intro {
+  align-items: center;
+  display: flex;
+}
+h5 {
+  margin: 4px;
+  padding: 0;
+}
+p {
+  font-size: 1rem;
+}
+.end {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.centre {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
